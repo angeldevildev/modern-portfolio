@@ -42,7 +42,7 @@ export default function Navbar() {
   return (
     <nav 
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg shadow-md' : ''
+        isScrolled ? 'bg-white dark:bg-gray-900 shadow-md' : 'bg-transparent'
       }`} 
       style={{ fontFamily: "GeistMonoVF" }}
     >
@@ -123,6 +123,9 @@ export default function Navbar() {
                     <AvatarFallback>AB</AvatarFallback>
                   </Avatar>
                   <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">angeldevildev</h2>
+                  <p className="text-center text-gray-600 dark:text-gray-300">
+                    Crafting Digital Experiences
+                  </p>
                 </div>
 
                 <nav className="space-y-1 mb-8">
@@ -139,12 +142,28 @@ export default function Navbar() {
                   ))}
                 </nav>
 
-                <Button 
-                  className="w-full rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] dark:hover:shadow-[0_8px_30px_rgba(255,255,255,0.1)]"
-                  onClick={() => setIsMobileMenuOpen(false)}
-                >
-                  Hire Me <ExternalLink className="ml-2 h-4 w-4" />
-                </Button>
+                <div className="space-y-4">
+                  <Button 
+                    className="w-full rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] dark:hover:shadow-[0_8px_30px_rgba(255,255,255,0.1)]"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Hire Me <ExternalLink className="ml-2 h-4 w-4" />
+                  </Button>
+                  <Button 
+                    variant="outline"
+                    className="w-full rounded-full"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    View My Work
+                  </Button>
+                  <Button 
+                    variant="ghost"
+                    className="w-full rounded-full"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    Contact Me
+                  </Button>
+                </div>
               </div>
 
               <div className="flex items-center justify-between w-full max-w-md mt-8">
