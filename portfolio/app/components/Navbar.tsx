@@ -41,7 +41,7 @@ export default function Navbar() {
 
   return (
     <nav 
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 mt-2 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         isScrolled ? 'bg-white/80 dark:bg-gray-900/80 backdrop-blur-lg shadow-md' : ''
       }`} 
       style={{ fontFamily: "GeistMonoVF" }}
@@ -54,7 +54,7 @@ export default function Navbar() {
                 <AvatarImage src="/placeholder.svg?height=40&width=40" alt="Angelo Broggian" />
                 <AvatarFallback>AB</AvatarFallback>
               </Avatar>
-              <span className="ml-3 text-lg font-semibold text-gray-900 dark:text-white">Angelo Broggian</span>
+              <span className="ml-3 text-lg font-semibold text-gray-900 dark:text-white">angeldevildev</span>
             </Link>
           </div>
           <div className="hidden md:flex items-center space-x-4">
@@ -100,47 +100,67 @@ export default function Navbar() {
       <AnimatePresence>
         {isMobileMenuOpen && (
           <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
+            initial={{ opacity: 0, y: -20 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.3 }}
-            className="md:hidden bg-white dark:bg-gray-900"
+            className="fixed inset-0 z-50 bg-white dark:bg-gray-900 md:hidden"
           >
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              {navItems.map((item) => (
-                <Link
-                  key={item.name}
-                  href={item.href}
-                  className="text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 block px-3 py-2 rounded-md text-base font-medium transition-all duration-300 ease-in-out relative group"
+            <div className="flex flex-col items-center justify-between min-h-screen py-8 px-4 relative">
+              <Button
+                variant="ghost"
+                size="icon"
+                onClick={() => setIsMobileMenuOpen(false)}
+                className="absolute top-4 right-4 rounded-full"
+              >
+                <X className="h-6 w-6" />
+              </Button>
+
+              <div className="w-full max-w-md mt-12">
+                <div className="flex flex-col items-center mb-8">
+                  <Avatar className="h-20 w-20 mb-4 border-2 border-primary">
+                    <AvatarImage src="/placeholder.svg?height=80&width=80" alt="Angelo Broggian" />
+                    <AvatarFallback>AB</AvatarFallback>
+                  </Avatar>
+                  <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">angeldevildev</h2>
+                </div>
+
+                <nav className="space-y-1 mb-8">
+                  {navItems.map((item) => (
+                    <Link
+                      key={item.name}
+                      href={item.href}
+                      className="flex items-center px-4 py-3 text-base font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-md transition-colors duration-200"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                      <item.icon className="mr-4 h-6 w-6" />
+                      {item.name}
+                    </Link>
+                  ))}
+                </nav>
+
+                <Button 
+                  className="w-full rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] dark:hover:shadow-[0_8px_30px_rgba(255,255,255,0.1)]"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
-                  <item.icon className="inline-block w-5 h-5 mr-2" />
-                  {item.name}
-                  <span className="absolute left-0 bottom-0 w-full h-0.5 bg-primary scale-x-0 group-hover:scale-x-100 transition-transform duration-300 ease-in-out"></span>
-                </Link>
-              ))}
-            </div>
-            <div className="px-4 py-3 space-y-3">
-              <Button
-                className="w-full rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] dark:hover:shadow-[0_8px_30px_rgba(255,255,255,0.1)]"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                Hire Me <ExternalLink className="ml-2 h-4 w-4" />
-              </Button>
-              <div className="flex justify-center space-x-4">
-                {socialLinks.map((link) => (
-                  <a
-                    key={link.name}
-                    href={link.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-600 dark:text-gray-300 hover:text-primary dark:hover:text-primary transition-colors duration-200"
-                  >
-                    <link.icon className="h-6 w-6" />
-                  </a>
-                ))}
+                  Hire Me <ExternalLink className="ml-2 h-4 w-4" />
+                </Button>
               </div>
-              <div className="flex justify-center">
+
+              <div className="flex items-center justify-between w-full max-w-md mt-8">
+                <div className="flex space-x-4">
+                  {socialLinks.map((link) => (
+                    <a
+                      key={link.name}
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-600 dark:text-gray-400 hover:text-primary dark:hover:text-primary transition-colors duration-200"
+                    >
+                      <link.icon className="h-6 w-6" />
+                    </a>
+                  ))}
+                </div>
                 <Button
                   variant="outline"
                   size="icon"
