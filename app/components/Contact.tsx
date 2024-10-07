@@ -6,6 +6,8 @@ import { Send, Mail, Phone, MapPin } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
+import { useForm, ValidationError } from '@formspree/react';
+
 
 export default function Contact() {
   const [name, setName] = useState('')
