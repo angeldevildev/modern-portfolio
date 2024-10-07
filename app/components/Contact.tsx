@@ -6,8 +6,6 @@ import { Send, Mail, Phone, MapPin } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { useForm, ValidationError } from '@formspree/react';
-
 
 export default function Contact() {
   const [name, setName] = useState('')
@@ -38,8 +36,8 @@ export default function Contact() {
             Get in <span className="text-primary">Touch</span>
           </h2>
           <p className="mt-4 text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Have a question or want to work together? I'd love to hear from you. Let's connect!
-          </p>
+            Have a question or want to work together? I&#39;d love to hear from you. Let&#39;s connect!
+            </p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

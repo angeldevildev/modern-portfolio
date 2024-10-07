@@ -59,8 +59,8 @@ export default function About() {
         >
           <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">My Journey</h3>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-8">
-            With a strong foundation in computer science and years of hands-on experience, I've honed my skills in both frontend and backend technologies. My passion lies in creating seamless, efficient, and scalable web applications that solve real-world problems.
-          </p>
+              With a strong foundation in computer science and years of hands-on experience, I&#39;ve honed my skills in both frontend and backend technologies. My passion lies in creating seamless, efficient, and scalable web applications that solve real-world problems.
+            </p>
           <Button 
             className="rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] dark:hover:shadow-[0_8px_30px_rgba(255,255,255,0.1)]"
           >

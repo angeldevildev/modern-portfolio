@@ -1,8 +1,7 @@
 "use client"
 
 import { motion } from 'framer-motion'
-import { Briefcase, Calendar, ChevronRight } from 'lucide-react'
-import { Button } from "@/components/ui/button"
+import { Calendar } from 'lucide-react'
 
 const experiences = [
   {

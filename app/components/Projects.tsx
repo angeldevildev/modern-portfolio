@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { ExternalLink, Github, ArrowRight } from 'lucide-react'
+import { ExternalLink, Github } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 
@@ -71,7 +71,7 @@ export default function Projects() {
               My <span className="text-primary">Projects</span>
             </h2>
             <p className="mt-4 text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-              Here are some of the projects I've worked on. Each one represents a unique challenge and learning experience.
+              Here are some of the projects I&apos;ve worked on. Each one represents a unique challenge and learning experience.
             </p>
           </motion.div>
   

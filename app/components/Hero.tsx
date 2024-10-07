@@ -18,7 +18,7 @@ export default function Hero() {
             Crafting Digital <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">Experiences</span>
           </h1>
           <p className="mt-4 text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Hi, angeldevildev here! I'm a Full-Stack developer passionate about creating innovative and user-friendly web applications.
+            Hi, angeldevildev here! I&apos;m a Full-Stack developer passionate about creating innovative and user-friendly web applications.
           </p>
         </motion.div>
 
