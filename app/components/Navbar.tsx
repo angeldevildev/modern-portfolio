@@ -2,7 +2,8 @@
 
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Sun, Moon, Menu, X, User, Code, Briefcase, Mail, ExternalLink, Github, Linkedin } from 'lucide-react'
+import { Sun, Moon, Menu, X, User, Code, Briefcase, ExternalLink, Github, Linkedin } from 'lucide-react'
+//import { Mail } from 'lucide-react';
 import { useTheme } from 'next-themes'
 import Link from 'next/link'
 import { Button } from "@/components/ui/button"
