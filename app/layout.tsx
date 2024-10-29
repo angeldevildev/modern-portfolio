@@ -20,10 +20,15 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Codedoddle",
     description: "Codedoddle by angeldevildev",
-    url: "https://modern-portfolio-ecru.vercel.app/",
+    url: "https://www.codedoddle.com",
     siteName: "Codedoddle" ,
     images: [
-      
+      {
+        url: "https://www.codedoddle.com/api/og",
+        width: 1200,
+        height: 630,
+        alt: "Are you ready to have a great website?"
+      },
     ],
   },
 };
