@@ -7,10 +7,8 @@ import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
 
 import portfolioImage from '../assets/portfolio.png';
-import jellyfishMCImage from '../assets/jellyfish.png';
-import jellyfishShopImage from '../assets/shop.png';
-import visiUIImage from '../assets/visiuiweb.png';
-import visiUIDocsImage from '../assets/docs.png'
+import crystalCoveWebsiteImage from '../assets/crystalcoveImage.png';
+import carRental from '../assets/carrental.png';
 
 const projects = [
     {
@@ -22,36 +20,20 @@ const projects = [
       githubLink: "https://github.com/example/portfolio",
     },
     {
-      title: "JellyFishMC Website",
-      description: "I've created this website with NextJS and is for a MineCraft Server. It Is a private repository.",
-      image: jellyfishMCImage,
+      title: "CrystalCove Website",
+      description: "I am a Developer at CrystalCove a MineCraft Server and i've made his homepage",
+      image: crystalCoveWebsiteImage,
       tags: ["React", "TypeScript", "Tailwind CSS", "NextJS", "Vercel", "OpenGraph"],
-      liveLink: "https://jellyfish-website.vercel.app/",
+      liveLink: "https://crystalcove.vercel.app/",
       githubLink: "#",
     },
     {
-      title: "JellyFishMC Shop",
-      description: "The JellyFishMC shop is the part where you can buy some items of the server. It is a private repository.",
-      image: jellyfishShopImage,
+      title: "Car Rental",
+      description: "A Next.js-based car rental website showcasing our fleet, services, team, and customer testimonials. Explore our live demo to experience our seamless car rental process.",
+      image: carRental,
       tags: ["React", "TypeScript", "Tailwind CSS", "NextJS", "Vercel", "OpenGraph"],
-      liveLink: "https://jellyfish-shop.vercel.app/",
-      githubLink: "#",
-    },
-    {
-      title: "VisiUI",
-      description: "VisiUI is a library that provides pre-built, editable React components that can be used in your app. Is OpenSource and you can start contributing right NOW!",
-      image: visiUIImage,
-      tags: ["React", "TypeScript", "Tailwind CSS", "NextJS", "Vercel", "OpenGraph"],
-      liveLink: "https://www.visiui.org/",
-      githubLink: "https://github.com/VisiUI/VisiUI",
-    },
-    {
-      title: "VisiUI Docs",
-      description: "The VisiUI Docs is where all the components are based.",
-      image: visiUIDocsImage,
-      tags: ["React", "TypeScript", "Tailwind CSS", "NextJS", "Vercel", "OpenGraph"],
-      liveLink: "https://docs.visiui.org/docs",
-      githubLink: "https://github.com/VisiUI/docs",
+      liveLink: "https://car-rental-angeldevil.vercel.app",
+      githubLink: "https://github.com/angeldevildev/car-rental",
     },
   ]
 

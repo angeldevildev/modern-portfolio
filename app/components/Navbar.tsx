@@ -27,7 +27,7 @@ export default function Navbar() {
     { name: 'About', icon: User, href: '#about' },
     { name: 'Projects', icon: Code, href: '#projects' },
     { name: 'Experience', icon: Briefcase, href: '#experience' },
-    { name: 'Contact', icon: Mail, href: '#contact' },
+    //{ name: 'Contact', icon: Mail, href: '#contact' },
   ]
 
   const socialLinks = [
