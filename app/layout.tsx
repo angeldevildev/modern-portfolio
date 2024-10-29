@@ -16,10 +16,10 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Codedoddle",
-  description: "Codedoddle by angeldevildev",
+  description: "This is the angeldevildev's portfolio, i am a FullStack Developer, contact me if you need any Front-End/Back-End Service",
   openGraph: {
     title: "Codedoddle",
-    description: "Codedoddle by angeldevildev",
+    description: "This is the angeldevildev's portfolio, i am a FullStack Developer, contact me if you need any Front-End/Back-End Service",
     url: "https://www.codedoddle.com",
     siteName: "Codedoddle" ,
     images: [
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
         url: "https://www.codedoddle.com/api/og",
         width: 1200,
         height: 630,
-        alt: "Are you ready to have a great website?"
+        alt: "Are you ready to get a great website?"
       },
     ],
   },
