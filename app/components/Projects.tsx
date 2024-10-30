@@ -16,7 +16,7 @@ const projects = [
       description: "A responsive portfolio website showcasing my skills and projects.",
       image: portfolioImage,
       tags: ["React", "CSS", "Vercel"],
-      liveLink: "https://www.codedoddle.com/",
+      liveLink: "https://portfoliocodedoddle.vercel.app/",
       githubLink: "https://github.com/example/portfolio",
     },
     {
