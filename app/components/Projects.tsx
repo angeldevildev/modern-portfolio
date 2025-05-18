@@ -8,7 +8,6 @@ import { Badge } from "@/components/ui/badge"
 
 import portfolioImage from '../assets/portfolio.png';
 import crystalCoveWebsiteImage from '../assets/crystalcoveImage.png';
-import carRental from '../assets/carrental.png';
 
 const projects = [
     {

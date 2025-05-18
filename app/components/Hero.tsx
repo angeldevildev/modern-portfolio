@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from 'framer-motion'
-import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react'
+import { ArrowRight, Github, Mail } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 
 export default function Hero() {
