@@ -18,7 +18,7 @@ export default function Hero() {
             Crafting Digital <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500">Experiences</span>
           </h1>
           <p className="mt-4 text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Hi, angeldevildev here! I&apos;m a Full-Stack developer passionate about creating innovative and user-friendly web applications.
+            Hi, angeldevildev here! I&apos;m a Front-end developer passionate about creating innovative and user-friendly web applications.
           </p>
         </motion.div>
 
@@ -29,11 +29,11 @@ export default function Hero() {
           className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
         >
           <Button className="rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white px-8 py-6 text-lg font-semibold transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] dark:hover:shadow-[0_8px_30px_rgba(255,255,255,0.1)]">
-            View My Work
+            <a href="#projects">View My Work </a>
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
           <Button variant="outline" className="rounded-full px-8 py-6 text-lg font-semibold">
-            Contact Me
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=abroggian88@gmail.com" target='_blank'>Contact Me</a>
           </Button>
         </motion.div>
 
@@ -47,11 +47,11 @@ export default function Hero() {
             <Github className="h-8 w-8" />
             <span className="sr-only">GitHub</span>
           </a>
-          <a href="https://www.linkedin.com/in/angelo-broggian-78b734269/" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-300">
+        {/*<a href="https://www.linkedin.com/in/angelo-broggian-78b734269/" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-300">
             <Linkedin className="h-8 w-8" />
             <span className="sr-only">LinkedIn</span>
-          </a>
-          <a href="mailto:contact@angelobroggian4@gmail.com" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-300">
+          </a> **/}
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=abroggian88@gmail.com" target='_blank' className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors duration-300">
             <Mail className="h-8 w-8" />
             <span className="sr-only">Email</span>
           </a>

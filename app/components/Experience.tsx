@@ -5,25 +5,17 @@ import { Calendar } from 'lucide-react'
 
 const experiences = [
   {
-    title: "Freelance FrontEnd Developer",
+    title: "Freelance Frontend Developer",
     period: "Jan 2024 - Present",
-    description: "Lead development of scalable web applications using React, Node.js, and AWS. Implemented CI/CD pipelines and mentored junior developers.",
-    skills: ["React", "Node.js", "AWS", "Docker", "GraphQL"],
+    description: "Development of scalable web applications using React, Tailwind CSS, OpenGraph and more... ",
+    skills: ["React", "Tailwind CSS", "Git", "NextJS", "GraphQL", "..."],
   },
   {
-    title: "FrontEnd Engineer",
-    company: "Spotify",
-    period: "Sep 2022 - Present",
-    description: "Developed and maintained multiple client websites and web applications. Collaborated with design team to implement responsive UI/UX designs.",
-    skills: ["JavaScript", "React", "MySQL", "Web Design", "HTML", "CSS", "Tailwind CSS"],
-  },
-  {
-    title: "FrontEnd Developer",
-    company: "Microsoft",
-    period: "Apr 2015 - June 2023",
-    description: "Assisted in the development of company's main product, a social media management tool. Gained experience in agile methodologies and version control.",
-    skills: ["JavaScript", "React", "MySQL" ,"HTML/CSS", "Tailwind CSS", "Figma", "Web Design"],
-  },
+    title: "No more...",
+    period: "Dec 1992 - Jan 2024",
+    description: "I became a developer in Jan 2024 so I have no more experiences!",
+    skills: ["JavaScript", "React", "HTML", "CSS", "Tailwind CSS", "Git", "OpenGraph", "..."],
+  }
 ]
 
 export default function Experience() {
@@ -40,7 +32,7 @@ export default function Experience() {
             My <span className="text-primary">Experience</span>
           </h2>
           <p className="mt-4 text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            A journey through my professional career, showcasing the roles and projects that have shaped my expertise.
+            A journey through my experiences in frontend developing
           </p>
         </motion.div>
 

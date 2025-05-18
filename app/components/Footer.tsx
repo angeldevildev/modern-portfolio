@@ -19,13 +19,13 @@ export default function Footer() {
           >
             <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">angeldevildev</h3>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Full-stack developer passionate about creating innovative web solutions.
+              Front-end developer passionate about creating innovative web solutions.
             </p>
             <Button
               asChild
               className="rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] dark:hover:shadow-[0_8px_30px_rgba(255,255,255,0.1)]"
             >
-              <a href="#contact">Get in Touch</a>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=abroggian88@gmail.com" target='_blank'>Get in Touch</a>
             </Button>
           </motion.div>
 
@@ -40,7 +40,7 @@ export default function Footer() {
               <a href="#about" className="block text-gray-600 dark:text-gray-300 hover:text-primary transition-colors duration-300">About</a>
               <a href="#projects" className="block text-gray-600 dark:text-gray-300 hover:text-primary transition-colors duration-300">Projects</a>
               <a href="#experience" className="block text-gray-600 dark:text-gray-300 hover:text-primary transition-colors duration-300">Experience</a>
-              <a href="#contact" className="block text-gray-600 dark:text-gray-300 hover:text-primary transition-colors duration-300">Contact</a>
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=abroggian88@gmail.com" target='_blank' className="block text-gray-600 dark:text-gray-300 hover:text-primary transition-colors duration-300">Contact</a> 
             </nav>
           </motion.div>
 
@@ -56,11 +56,11 @@ export default function Footer() {
                 <Github className="h-6 w-6" />
                 <span className="sr-only">GitHub</span>
               </a>
-              <a href="https://www.linkedin.com/in/angelo-broggian-78b734269/" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors duration-300">
+          {/**<a href="https://www.linkedin.com/in/angelo-broggian-78b734269/" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors duration-300">
                 <Linkedin className="h-6 w-6" />
                 <span className="sr-only">LinkedIn</span>
-              </a>
-              <a href="mailto:contact@angelobroggian4@gmail.com" className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors duration-300">
+              </a> **/}
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=abroggian88@gmail.com" target='_blank' rel='nooper noreferrer' className="text-gray-600 dark:text-gray-300 hover:text-primary transition-colors duration-300">
                 <Mail className="h-6 w-6" />
                 <span className="sr-only">Email</span>
               </a>

@@ -82,7 +82,7 @@ export default function Navbar() {
             <Button 
               className="rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] dark:hover:shadow-[0_8px_30px_rgba(255,255,255,0.1)]"
             >
-              Hire Me <ExternalLink className="ml-2 h-4 w-4" />
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=abroggian88@gmail.com" target='_blank'>Hire Me</a> <ExternalLink className="ml-2 h-4 w-4" />
             </Button>
           </div>
           <div className="md:hidden">
@@ -148,21 +148,14 @@ export default function Navbar() {
                     className="w-full rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] dark:hover:shadow-[0_8px_30px_rgba(255,255,255,0.1)]"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    Hire Me <ExternalLink className="ml-2 h-4 w-4" />
+                   <a href="https://mail.google.com/mail/?view=cm&fs=1&to=abroggian88@gmail.com" target='_blank'> Hire Me </a> <ExternalLink className="ml-2 h-4 w-4" />
                   </Button>
                   <Button 
                     variant="outline"
                     className="w-full rounded-full"
                     onClick={() => setIsMobileMenuOpen(false)}
                   >
-                    View My Work
-                  </Button>
-                  <Button 
-                    variant="ghost"
-                    className="w-full rounded-full"
-                    onClick={() => setIsMobileMenuOpen(false)}
-                  >
-                    Contact Me
+                    <a href="#projects">View my work</a>
                   </Button>
                 </div>
               </div>

@@ -7,8 +7,8 @@ import { Button } from "@/components/ui/button"
 export default function About() {
   const skills = [
     { name: 'Frontend Development', icon: Code, description: 'Crafting responsive and intuitive user interfaces' },
-    { name: 'Backend Development', icon: Cpu, description: 'Building robust and scalable server-side applications' },
-    { name: 'Full-Stack Integration', icon: Globe, description: 'Seamlessly connecting frontend and backend systems' },
+    { name: 'Connecting backend with frontend', icon: Cpu, description: 'Everything works perfectly' },
+    { name: 'Deploy', icon: Globe, description: 'Making my creations public to everyone' },
     { name: 'Performance Optimization', icon: Zap, description: 'Enhancing application speed and efficiency' },
   ]
 
@@ -25,7 +25,7 @@ export default function About() {
             About <span className="text-primary">Me</span>
           </h2>
           <p className="mt-4 text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            angeldevildev here, a passionate full-stack developer with a knack for creating innovative and user-friendly web applications.
+            angeldevildev here, a passionate front-end developer with a knack for creating innovative and user-friendly web applications.
           </p>
         </motion.div>
 
@@ -59,12 +59,12 @@ export default function About() {
         >
           <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">My Journey</h3>
           <p className="text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto mb-8">
-              With a strong foundation in computer science and years of hands-on experience, I&#39;ve honed my skills in both frontend and backend technologies. My passion lies in creating seamless, efficient, and scalable web applications that solve real-world problems.
+              With a great experience, I&#39;ve honed my skills in frontend technologies. My passion lies in creating seamless, efficient, and beautiful web applications that achieve your ideal of beauty.
             </p>
           <Button 
             className="rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-[0_8px_30px_rgb(0,0,0,0.12)] dark:hover:shadow-[0_8px_30px_rgba(255,255,255,0.1)]"
           >
-            View My Projects
+            <a href="#projects">View my projects</a>
           </Button>
         </motion.div>
       </div>

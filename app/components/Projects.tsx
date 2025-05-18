@@ -13,27 +13,19 @@ import carRental from '../assets/carrental.png';
 const projects = [
     {
       title: "Portfolio Website",
-      description: "A responsive portfolio website showcasing my skills and projects.",
+      description: "A responsive portfolio website showcasing my skills and projects (my old portfolio as well!).",
       image: portfolioImage,
       tags: ["React", "CSS", "Vercel"],
       liveLink: "https://portfoliocodedoddle.vercel.app/",
-      githubLink: "https://github.com/example/portfolio",
+      githubLink: "https://github.com/angeldevildev/portfolio",
     },
     {
       title: "CrystalCove Website",
-      description: "I am a Developer at CrystalCove a MineCraft Server and i've made his homepage",
+      description: "I've done this website for an italian MineCraft server!",
       image: crystalCoveWebsiteImage,
       tags: ["React", "TypeScript", "Tailwind CSS", "NextJS", "Vercel", "OpenGraph"],
       liveLink: "https://crystalcove.vercel.app/",
       githubLink: "#",
-    },
-    {
-      title: "Car Rental",
-      description: "A Next.js-based car rental website showcasing our fleet, services, team, and customer testimonials. Explore our live demo to experience our seamless car rental process.",
-      image: carRental,
-      tags: ["React", "TypeScript", "Tailwind CSS", "NextJS", "Vercel", "OpenGraph"],
-      liveLink: "https://car-rental-angeldevil.vercel.app",
-      githubLink: "https://github.com/angeldevildev/car-rental",
     },
   ]
 
