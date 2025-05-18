@@ -24,7 +24,7 @@ const projects = [
       image: crystalCoveWebsiteImage,
       tags: ["React", "TypeScript", "Tailwind CSS", "NextJS", "Vercel", "OpenGraph"],
       liveLink: "https://crystalcove.vercel.app/",
-      githubLink: "#",
+      githubLink: "https://github.com/angeldevildev/crystalcove-website",
     },
   ]
 
