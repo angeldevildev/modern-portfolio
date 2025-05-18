@@ -6,12 +6,14 @@ import { Calendar } from 'lucide-react'
 const experiences = [
   {
     title: "Freelance Frontend Developer",
+    company: "Myself",
     period: "Jan 2024 - Present",
     description: "Development of scalable web applications using React, Tailwind CSS, OpenGraph and more... ",
     skills: ["React", "Tailwind CSS", "Git", "NextJS", "GraphQL", "..."],
   },
   {
     title: "No more...",
+    company: "No company",
     period: "Dec 1992 - Jan 2024",
     description: "I became a developer in Jan 2024 so I have no more experiences!",
     skills: ["JavaScript", "React", "HTML", "CSS", "Tailwind CSS", "Git", "OpenGraph", "..."],
