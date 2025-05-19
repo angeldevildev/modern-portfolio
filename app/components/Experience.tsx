@@ -8,7 +8,7 @@ const experiences = [
     title: "Freelance Frontend Developer",
     company: "Myself",
     period: "Jan 2024 - Present",
-    description: "Development of scalable web applications using React, Tailwind CSS, OpenGraph and more...",
+    description: "Development of scalable web interfaces using React, Tailwind CSS, OpenGraph and more...",
     skills: ["React", "Tailwind CSS", "Git", "NextJS", "GraphQL", "..."],
   },
 ]
